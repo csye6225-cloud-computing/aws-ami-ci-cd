@@ -1,5 +1,13 @@
 # Packer
 
+## Packer Validate
+
+```
+packer validate ami.json
+```
+
+
+## Packer Build
 ```
 packer build \
     -var 'aws_access_key=' \
